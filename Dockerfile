@@ -1,4 +1,4 @@
-FROM ruby:2.3-alpine
+FROM ruby:2.3.1-alpine
 
 ENV BUILD_PACKAGES="curl-dev ruby-dev build-base bash" \
     DEV_PACKAGES="zlib-dev libxml2 libxml2-dev libxslt-dev tzdata yaml-dev postgresql postgresql-dev" \
